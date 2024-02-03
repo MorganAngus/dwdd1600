@@ -4,3 +4,19 @@ body {
     font-weight: 300;
     margin: 0
 }
+
+/* Header Stuff Here*/
+
+header {
+    background-color: #eaeaea;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #024873;
+}
+header p {
+    margin: 0;
+    color: #024873;
+    letter-spacing: .5px;
+}
