@@ -80,7 +80,7 @@ main dl dd {
 }
 
 main ul {
-    list-style-type: circle;
+    list-style-type: square;
 }
 main ul li {
     line-height: 125%;
