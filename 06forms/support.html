@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Friends is a high-ranked comedy TV show that everyone should watch">
+        <meta charset="UTF-8">
+        <title>Friends</title>
+        <link rel="stylesheet" href="transfer.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="A High-Ranked Comedy TV Show">
+        <meta name="author" content="Morgan Angus">
+        
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1>Friends</h1>
+            <h2>A High-Ranked Comedy TV Show</h2>
+        </header>
+        <!-- Start of the page navigatiom -->
+        <nav>
+            <ul>
+            <li><a href="index.html">Summary</a></li>
+            <li><a href="cast.html">Cast</a></li>
+            <li><a href="images.html">Images</a></li>
+            <li><a href="quotes.html">Quotes</a></li>
+            <li class="active"><a href="support.html">Support Us</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+        <h1>Support Us</h1>
+        <form method="get" class=".myform" action="thanks.html">
+        
+        <fieldset>
+        <legend>Customer Information</legend>
+        <label>First Name*<input type="text" name="fnaame" required></label>
+        <label>Last Name*<input type="text" name="lnaame" required></label>
+        <label>Cell Number*<input type="tel" name="phone" required></label>
+        <label>Email*<input type="address" name="email" required></label>
+        </fieldset>    
+        
+        <fieldset>
+        <legend>Delivery Method Information</legend>  
+            <label><input type="radio" name="method" value="drone">Drone Delivery (2 hrs)</label>
+            <label><input type="radio" name="method" value="cycle">Motorcycle (4 hrs)</label>
+            <label><input type="radio" name="method" value="robot">Robot Deliver (6 hrs)</label>
+        </fieldset>    
+            
+        <fieldset>
+        <legend>Delivery Options</legend>
+            <label><input type="checkbox" name="porch" value="chosen">Front Porch</label>  
+            <label><input type="checkbox" name="deck" value="chosen">Back Deck</label>
+            <label><input type="checkbox" name="driveway" value="chosen">Driveway</label>
+            <label><input type="checkbox" name="garage" value="chosen">Inside the Garage</label>
+            
+            <label>Preferred Delivery Time
+            <select name="time">
+            <option value="none">Please Select</option>
+            <option value="morning">Between 7:00am and 11:00am</option>
+            <option value="noon">Between 11:00am and 2:00pm</option>    
+            <option value="afternoon">Between 2:00pm and 5:00pm</option>    
+            <option value="evening">Between 5:00pm and 8:00pm</option>
+            </select>
+            </label>
+        </fieldset>
+            
+            <label>Comments
+            <textarea name="comments"></textarea>
+            </label>
+            
+                
+        <input type="submit" value="Send Delivery Request"> 
+        </form>
+        </main>
+        
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Morgan Angus &bull; <a href="mailto:morganangus2005@gmail.com">Email us</a></p>
+        </footer>
+        
+    </body>
+</html>
