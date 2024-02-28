@@ -147,7 +147,15 @@ margin: .5rem;
 display: block;
 }
 
-.myform [type=text], .myform [type=tel], .myform select, .myform textarea {
+.myform [type=text], .myform [type=tel], .myform select {
+    border: solid 1px #b40412;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+.myform [type=address] {
     border: solid 1px #b40412;
     padding: .3rem;
     width: 250px;
@@ -156,9 +164,12 @@ display: block;
     font-weight: 200;
 }
 .myform textarea {
-    height: 6rem;
+    height: 4.5rem;
+    color: #2f3113;
 }
-
+.myform select {
+    border: solid 1px #18bff1ff;
+}
 .myform :required {
     background-color: rgba(156,51,53,0.1)
 }
