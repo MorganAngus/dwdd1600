@@ -13,6 +13,7 @@ body {
 header {
     background-color: #f9f9f9ff;
     padding: 1rem 2vw;
+    display: flex;
 }
 header h1 {
     margin: 0;
