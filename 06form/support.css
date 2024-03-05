@@ -155,7 +155,7 @@ display: block;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 200;
 }
-.myform [type=address] {
+.myform [type=email] {
     border: solid 1px #b40412;
     padding: .3rem;
     width: 250px;
