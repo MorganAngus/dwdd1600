@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Friends is a high-ranked comedy TV show that everyone should watch">
+        <meta charset="UTF-8">
+        <title>Friends</title>
+        <link rel="stylesheet" href="transfer.css">
+        <link ref="stylesheet" href=contact.css>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Budget-Friendly Travel Agency and Vacation Destinations">
+        <meta name="author" content="Morgan Angus">
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <div>
+            <h1>Budget Vacations</h1>
+            <h2>Budget-Friendly Travel Agency and Vacation Destinations</h2>
+            </div>
+        </header>
+        <!-- Start of the page navigatiom -->
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Destinations</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="package.html">Packages</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+        <h1>Contact Us</h1>
+        <form method="get" class="myform" action="thanks.html">
+        
+        <fieldset>
+        <legend>User Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Cell Number*<input type="tel" name="phone" required></label>
+        <label>Email*<input type="address" name="email" required></label>
+        </fieldset>
+            
+         <fieldset>
+        <legend>Subscription</legend>  
+             <label><input type="radio" name="method" value="yes">Yes (Subscription will be added)</label>
+             <label><input type="radio" name="method" value="no">No (Subscription will not be added)</label>
+            <label><input type="radio" name="method" value="other">Other
+            <textarea name="comments"></textarea>
+            </label>
+        </fieldset>    
+            
+        <fieldset>
+        <legend>Notification Options</legend>
+            <label><input type="checkbox" name="on" value="chosen">Turn On Notifications</label>  
+            <label><input type="checkbox" name="somtimes" value="chosen">Turn On Notifications, But Only Get Them Sometimes</label>
+            <label><input type="checkbox" name="off" value="chosen">Turn Off Notifications</label>
+            
+            <label>Preferred Notification Time
+            <select name="time">
+            <option value="none">Please Select</option>
+            <option value="morning">Between 9:00am and 11:00am</option>
+            <option value="noon">Between 11:00am and 1:00pm</option>    
+            <option value="afternoon">Between 1:00pm and 5:00pm</option> 
+            <option value="evening">Between 5:00pm and 10:00pm</option>
+            </select>
+            </label>
+        </fieldset>
+            
+            <label>Comments
+            <textarea name="comments"></textarea>
+            </label>
+            
+                
+        <input type="submit" value="Submit Form"> 
+        </form>
+        </main>
+        
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Morgan Angus &bull; <a href="mailto:morganangus2005@gmail.com">Email us</a></p>
+        </footer>
+        
+    </body>
+</html>
+</html>
